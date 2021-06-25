@@ -20,6 +20,7 @@ function checkPalindrome(str) {
 function testPalindrome() {
   testWord('шалаш', true);
   testWord('level', true);
+  testWord('eoe', true);
   testWord('пляж', false);
   }
 
